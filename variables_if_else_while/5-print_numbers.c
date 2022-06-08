@@ -9,14 +9,10 @@ int main(void)
 {
 int n;
 
-printf("\n");
-
 for (n = 1; n < 10; n++)
-{
-printf("%d", n);
-}
 
-getch();
+printf("%d", n);
+printf("\n");
 
 return (0);
 }
