@@ -4,13 +4,14 @@
 /**
  *print_last_digit - print the last digit of a number
  *@n: The number to be checked
- *Return: the last digit of a number
+ *Return: value of last digit
  */
 
 int print_last_digit(int n)
 {
+	n = n % 10;
 	if (n < 0)
-		n *= -1;
-	_putchar(n % 10 + '0');
-	return (n % 10);
+		n = -n;
+	_putchar(n + '0');
+	return (n);
 }
