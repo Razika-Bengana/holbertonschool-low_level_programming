@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  *print_to_98 - function that prints all numbers from n to 98
+ *@n: first number to start with
  */
 void print_to_98(int n)
 {
