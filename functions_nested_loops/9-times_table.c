@@ -15,7 +15,8 @@ void times_table(void)
 			multi = rows * columns;
 			if (multi < 10)
 			{
-				_putchar(',');
+				_putchar(44);
+				_putchar(' ');
 				_putchar(' ');
 				_putchar(multi % 10 + '0');
 			}
