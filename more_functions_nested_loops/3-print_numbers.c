@@ -7,8 +7,9 @@
 void print_numbers(void)
 {
 	int number;
+
 	number = 0;
-	while(number < 10)
+	while (number < 10)
 	{
 		_putchar (number + '0');
 		number++;
