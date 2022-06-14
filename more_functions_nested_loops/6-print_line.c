@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line - draws a line in the terminal
- *@n: numberof the lines
+ *@n: number of the lines
  * Return: the result of void
  */
 
