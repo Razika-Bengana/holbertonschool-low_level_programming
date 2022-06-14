@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * print the Fizz-Buzz test
+ * main - print the Fizz-Buzz test
  * Return: the result of void
  */
 int main(void)
