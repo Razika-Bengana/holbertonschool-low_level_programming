@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * _strncat - function that concatenate two strings
- * @src: a pointer to a char
- * @dest: a pointer to a char
+ * @src: source
+ * @dest: destination
  * @n: n bytes from src
  * Return: the pointer to dest
  */
