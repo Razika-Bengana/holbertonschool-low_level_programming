@@ -3,7 +3,7 @@
 /**
  * _strspn - function that gets the lenght of a prefix substring
  * @s: contain number of bytes returned
- * @accept: bytes to include to @s
+ * @accept: bytes to include from @s
  * Return: the number of bytes that are coming from @accept
  */
 unsigned int _strspn(char *s, char *accept)
