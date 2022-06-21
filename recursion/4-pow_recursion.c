@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * pow_recursion - returns the the value of x raised to the power of y
+ * _pow_recursion - returns the the value of x raised to the power of y
  * @x: integer one
  * @y: integer two
  * Return: the factorial of a given number
