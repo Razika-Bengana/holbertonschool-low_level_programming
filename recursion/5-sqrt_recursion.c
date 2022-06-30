@@ -3,7 +3,7 @@
  * sqrt2 - function that makes possible from 1 to n
  * @a: an integer
  * @b: an integer
- * return : 0 (success)
+ * Return: 0 (success)
  */
 int sqrt2(int a, int b)
 {
