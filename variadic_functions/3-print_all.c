@@ -32,8 +32,7 @@ void print_all(const char * const format, ...)
 		case 's':
 			s = va_arg(list, char *);
 			if (s == NULL)
-				printf("nil");
-
+				s = "(nil)";
 			printf("%s", s);
 			break;
 
@@ -41,7 +40,9 @@ void print_all(const char * const format, ...)
 			continue;
 		}
 		if (format[a])
+		{
 			printf(", ");
+		}
 	}
 	putchar(10);
 }
