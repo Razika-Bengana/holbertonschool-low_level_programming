@@ -16,13 +16,13 @@ void hash_table_print(const hash_table_t *ht)
 
 	if (!ht)
 		return;
-	printf ("{");
+	printf("{");
 
 	for (a = 0; a < ht->size; a++)
 	{
 		head = ht->array[a];
 
-		for(;head; head = head->next)
+		for (; head; head = head->next)
 		{
 			printf("%s'%s': '%s'", separator, head->key, head->value);
 			separator = ", ";
